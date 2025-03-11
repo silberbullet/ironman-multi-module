@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/module-body" />
+            <option value="$PROJECT_DIR$/module-core" />
+            <option value="$PROJECT_DIR$/module-left-arm-v1" />
+            <option value="$PROJECT_DIR$/module-left-arm-v1/left-arm" />
+            <option value="$PROJECT_DIR$/module-left-arm-v1/left-hand" />
+            <option value="$PROJECT_DIR$/module-left-arm-v1/left-shoulder" />
+            <option value="$PROJECT_DIR$/module-right-arm-v1" />
+            <option value="$PROJECT_DIR$/module-right-arm-v1/right-arm" />
+            <option value="$PROJECT_DIR$/module-right-arm-v1/right-hand" />
+            <option value="$PROJECT_DIR$/module-right-arm-v1/right-shoulder" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
