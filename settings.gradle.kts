@@ -1,4 +1,4 @@
-rootProject.name = "ironman"
+rootProject.name = "ironman-multi-module"
 
 include(
     "module-body",
@@ -76,3 +76,5 @@ include(
 //        it in excludedModules
 //    }
 //    ?.forEach { include(it)}
+include("module-body:body")
+findProject(":module-body:body")?.name = "body"
