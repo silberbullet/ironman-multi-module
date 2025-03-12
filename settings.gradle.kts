@@ -1,4 +1,4 @@
-rootProject.name = "ironman"
+rootProject.name = "ironman-multi-module"
 
 include(
     "module-body",
@@ -7,6 +7,10 @@ include(
     "module-left-arm-v1:left-arm",
     "module-left-arm-v1:left-hand",
     "module-left-arm-v1:left-shoulder",
+    "module-left-arm-v2",
+    "module-left-arm-v2:left-arm",
+    "module-left-arm-v2:left-hand",
+    "module-left-arm-v2:left-shoulder",
     "module-right-arm-v1",
     "module-right-arm-v1:right-arm",
     "module-right-arm-v1:right-shoulder",
