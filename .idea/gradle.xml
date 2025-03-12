@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/module-body" />
+            <option value="$PROJECT_DIR$/module-body/body" />
             <option value="$PROJECT_DIR$/module-core" />
             <option value="$PROJECT_DIR$/module-left-arm-v1" />
             <option value="$PROJECT_DIR$/module-left-arm-v1/left-arm" />
