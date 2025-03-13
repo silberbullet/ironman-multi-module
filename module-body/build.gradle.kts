@@ -12,5 +12,4 @@ dependencies {
     // implementation(project(":module-left-arm-v1"))
     // v2 교체
     implementation(project(":module-left-arm-v2"))
-
 }
