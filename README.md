@@ -12,10 +12,10 @@
 ## 부연 설명
 - Spring이 아닌 **Java Project 입니다.**
 - Java 멀티 모듈이 아닌 **Gradle 멀티 모듈입니다.**
-- ironman-multi-module/settings.gradle.kts 에서 모듈 설정을 볼 수 있습니다.
-- ironman-multi-module/build.gradle.kts 에서 `allProjects` 를 통해 Java 21 로 전역 설정. (변경 가능)
-- **module-body/build.gradle.kts 에서 left-arm-v1과 left-arm-v2 사이에 유연한 교체가 가능합니다.**
-- **left-arm-v1과 left-arm-v2에서 Build Script 의 `implementation` 과 `api` 차이점을 확인할 수 있습니다.** 
+- `ironman-multi-module/settings.gradle.kts` 에서 모듈 설정을 볼 수 있습니다.
+- `ironman-multi-module/build.gradle.kts` 에서 `allProjects` 를 통해 Java 21 로 전역 설정. (변경 가능)
+- **`module-body/build.gradle.kts` 에서 left-arm-v1과 left-arm-v2 사이에 유연한 교체가 가능합니다.**
+- **`left-arm-v1`과 `left-arm-v2`에서 Build Script 의 `implementation` 과 `api` 차이점을 확인할 수 있습니다.** 
 - **module-core 를 통해** module-body 와 module-left-arm-v1 사이에 **순환 참조를 해결**하였습니다.
 
 ## 폴더 구조 
