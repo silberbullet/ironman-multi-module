@@ -104,7 +104,7 @@ dependencies {
 }
 ```
 ### Main 실행
-- 
+
 <table border="3">
   <tr height="30">
     <td> 🚀 Body.main() 결과 </td>
@@ -124,7 +124,7 @@ LeftArm activated
 LeftHand activated
 LeftShoulder activated
 ```
-- **implementation(project(":module-left-arm-v2")) 활성화 시**
+- **implementation(project(":module-left-arm-v1")) 활성화 시**
 ```
 > Task :module-body:Body.main()
 Ironman Boot on!
